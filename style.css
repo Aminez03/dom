@@ -1,0 +1,143 @@
+body{
+    background-image: url(a3.webp);filter: blur(-200px);
+    
+}
+table{
+    border-style: outset;
+}
+.container{
+    
+    
+filter: drop-shadow(10px 10px 4px #ffe2be);
+
+    
+    margin-top: 150px;
+   
+    margin-left: 150px ;
+    
+    
+}
+.price, .uniteprice,.total{
+    font-size: 30px;
+}
+ th{
+    padding: 50px;
+    font-size:22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+td{
+    padding: 20px;
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    
+    padding: 10px ;
+    height: 50px;
+    font-size: 20px;
+    
+    
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:rgb(207, 192, 192);
+    border: none;
+    border-radius: 50px;  
+}
+
+
+
+.plus {
+    display: inline-block;
+    
+    padding: 10px ;
+   
+    font-size: 20px;
+    cursor: pointer;
+    
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:rgb(163, 156, 156);
+    border: none;
+    border-radius: 20px;
+
+    
+    
+}
+.plus:hover {background-color: #3e8e41}
+.minus{
+    display: inline-block;
+    padding: 10px ;
+    font-size: 20px;
+    cursor: pointer;
+    
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:rgb(163, 156, 156);
+    border: none;
+    border-radius: 15px;
+    
+}
+
+.minus:hover {background-color:rgb(142, 37, 37)}
+p{
+    height: 50px;
+    width: 30px;
+    margin-top: 15px;
+}
+.del{
+
+    display: flex;
+    justify-content: center;
+    padding: 10px ;
+    height: 50px;
+    font-size: 20px;
+    
+    
+    text-decoration: none;
+    outline: none;
+   
+    background-color:rgb(207, 192, 192);
+    border: none;
+    border-radius: 50px;  
+}
+.delete,.like{
+    display: inline-block;
+    padding: 10px ;
+    font-size: 20px;
+    cursor: pointer;
+    
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:rgb(163, 156, 156);
+    border: none;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: -5px;
+    
+    
+
+}
+
+.total{
+
+ display: flex;
+ justify-content: center;
+margin-left: 100px;
+}
+
+.tol{
+    margin-left: 100px;
+    margin-top: 60px;
+}
+i{
+    color: white;
+}
